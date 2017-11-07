@@ -1,0 +1,9 @@
+#!/usr/local/bin/bash
+
+function _is_osx(){
+  if [[ "$(uname -a | grep "Darwin")" != "" ]] ; then
+    return 0
+  else
+    return 1
+  fi
+}

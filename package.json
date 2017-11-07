@@ -1,0 +1,9 @@
+{
+    "name": "shcore",
+    "version": "0.1.0",
+    "description": "Common core utils",
+    "scripts": [
+        "shcore"
+    ],
+    "install": "make install"
+}
